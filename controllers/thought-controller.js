@@ -1,9 +1,6 @@
 const { User, Thought } = require('../models');
 
 const thoughtController = {
-    // /api/thoughts
-
-
     // obtain all thoughts
     getAllThought(req, res) {
         Thought.find({})
