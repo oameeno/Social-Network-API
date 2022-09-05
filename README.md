@@ -10,3 +10,5 @@ npm init -y
 npm i express
 npm i mongoose
 
+## POST ROUTE
+![post route](https://user-images.githubusercontent.com/63067847/188520141-77c4b262-f7cf-4511-a92f-205da5cd3d9c.png)
