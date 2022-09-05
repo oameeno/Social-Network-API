@@ -11,15 +11,12 @@ app.use(express.static('public'));
 app.use(require('./routes'));
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/Social-Network-API', {
-    useFindAndModify: false,
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
 
 
 
-
-//mongo queries to execute
 mongoose.set('debug', true);
 
 
